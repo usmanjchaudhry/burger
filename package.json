@@ -1,24 +1,32 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they would like to eat.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usmanjchaudhry/burger.git"
+    "url": "https://github.com/dasseya1/burger/"
   },
-  "author": "",
+  "keywords": [
+    "handlebars",
+    "node.js",
+    "javascript",
+    "mysql"
+  ],
+  "author": "Damien Asseya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/usmanjchaudhry/burger/issues"
-  },
-  "homepage": "https://github.com/usmanjchaudhry/burger#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
-    "mysql": "^2.18.1"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": "7.7.2",
+    "npm": "4.1.2"
   }
 }
